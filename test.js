@@ -1,7 +1,7 @@
 import {Armor} from "./modules/armor.js";
 function test() {
     var temp = new Armor("blah")
-    console.log(temp);
+    alert(temp.name);
 }
 
-document.querySelector('button').addEventListener('click',test);
+document.getElementById('next-button').addEventListener('click',test);
