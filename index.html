@@ -6,12 +6,47 @@
     </head>
     <body>
         <h1> Welcome to the Monster Hunter Build Builder</h1>
-        <button id= 'next-button'>Click me</button>
-        <button name= 'wors-button'>Click me</button>
 
         <script type = "module" src="main.js"></script>
-        <script type = "module" src="test.js"></script>
+        <script type = "module" src = ".\modules\build.js"></script>
+        <label for = "helm-select"> Choose your helm:</label>
         
+  
+        <select name = "helms" id="helm-select">
+            <option>Aelucanth Vertex S</option>
+            <option>test</option>
+        </select>
+
+        <p></p>
+
+        <label for = "chest-select"> Choose your chest:</label>
+        <select name = "chests" id="chest-select">
+            <option>Aelucanth Thorax S</option>
+        </select>
+
+        <p></p>
+
+        <label for = "arms-select"> Choose your arms:</label>
+        <select name = "arms" id="arms-select">
+            <option>Aelucanth Brachia S</option>
+        </select>
+
+        <p></p>
+
+        <label for = "waist-select"> Choose your waist:</label>
+        <select name = "waists" id="waist-select">
+            <option>Aelucanth Elytra S</option>
+        </select>
+
+        <p></p>
+
+        <label for = "legs-select"> Choose your legs:</label>
+        <select name = "legs" id="legs-select">
+            <option>Aelucanth Crura S</option>
+        </select>
+
+        <p>Current Equipped Helm: <span id = "currentEquippedHelm"></span> </p>
+    
     </body>
 
 </html>

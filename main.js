@@ -1,5 +1,6 @@
-import {initializeArmors,printAllArmors} from './modules/armor.js';
+import {initializeArmors,printAllHelms} from './modules/armor.js';
 
 initializeArmors();
 
-printAllArmors();
+printAllHelms();
+
